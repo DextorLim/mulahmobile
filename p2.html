@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lim Ri Ying">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Mulah</title>
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="logo-p2">MULAH</div>
+        <p class="title">Registration</p>
+        <p class="instructions-p2">Please fill up your details.</p>
+            
+        <form onsubmit="return validateForm()">
+              <div class="section">
+                <label class="field-name" for="name">Name</label>
+                <br>
+                <div class="field-container">
+                <input  class="field" type="text" id="name" placeholder="Enter Name">
+            </div>
+                <div class="error">*Please insert a name.</div>
+              </div>
+              
+              <div class="section">
+                <label class="field-name" for="birthday">Birthday</label>
+                <br>
+                <div class="date-fields">
+                <input class="field-date" type="text" id="day" placeholder="DD" maxlength="2">
+                <input class="field-date" type="text" id="month" placeholder="MM" maxlength="2">
+                <input class="field-date" type="text" id="year" placeholder="YYYY" maxlength="4">
+                </div>
+                <div class="error">*Please insert your birthday.</div>
+              </div>
+              
+              <div class="section">
+                <label class="field-name" for="email">Email Address</label>
+                <br>
+                <div class="field-container">
+                <input class="field" type="email" id="email" placeholder="Email Address">
+            </div>
+            <div class="error">*Please insert a valid email address.</div>
+              </div>
+              
+              <div>
+                <input type="checkbox" id="no-email">
+                <label class="chck-box" for="no-email">No email address</label>
+              </div>
+              
+            <button class="cont-btn" type="submit">Continue</button>
+        </form>
+            
+        <div>
+            <hr>
+            <p class="footer">Powered by <a href="https://mulahpoints.com/">MulahRewards.com</a></p>
+        </div>
+    </div>
+      
+</body>
+
+</html>

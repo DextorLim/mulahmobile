@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    padding: 20px;
+    max-width: 354px;
+    height: 1136px;
+    
+  }
+  .logo {
+    color: #f37521;
+    font-size: 36px;
+    font-weight:bolder;
+    padding: 60px;
+  }
+  .logo-p2{
+    padding-top: 20px;
+    color: #f37521;
+    font-size: 36px;
+    font-weight:bolder;
+  }
+  .welcome {
+    font-size: 36px;
+    margin: 20px 0;
+    text-align: left;
+  }
+  .greetings {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .title {
+    text-align: left;
+    font-size: 36px;
+    color: grey;
+  }
+  .instructions {
+    font-weight: 500;
+    margin: 20px 0;
+    color: #f37521;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.instructions-p2 {
+    font-weight: 500;
+    margin: 20px 0;
+    color: grey;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+.field-name {
+    color: grey;
+    font-weight: bold;
+    width: 100%;
+}
+.chck-box {
+font-style: italic;
+color: grey;
+    font-weight: bold;
+    font-size: 14px;
+}
+  .phone-input-container {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: column;
+  }
+  .phone-input-container select,
+  .phone-input-container input {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: 0px solid;
+    border-bottom: 1px solid;
+    border-color: #f37521;
+  }
+  .phone-input-container input {
+    width: 200px;
+  }
+  .check-btn {
+    width: 100%;
+    background: #f37521;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid;
+    border-radius: 15rem;
+  }
+  .footer {
+    color: #666;
+    font-size: 14px;
+    margin: 40px 0;
+  }
+  .error {
+    color: red;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  form {
+    text-align: left;
+  }
+
+  .section {
+    margin-top: 40px;
+  }
+
+  .cont-btn{
+    width: 100%;
+    background: #f37521;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid;
+    border-radius: 15rem;
+  }
+
+  .field {
+    border: 1px solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .date-fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 100%;
+  }
+  .field-date {
+    border: 1px solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 20%;
+  }
+  .field-container {
+    display: flex;
+  }
